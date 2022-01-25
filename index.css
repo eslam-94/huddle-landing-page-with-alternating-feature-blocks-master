@@ -1,0 +1,169 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+i {
+  cursor: pointer;
+  width: 30px;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 50%;
+  padding: 5px 6px;
+  margin: 0 3px;
+}
+
+/* start top section */
+.top {
+  background-image: url("images/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  text-align: center;
+}
+
+/* start nav bar */
+nav img {
+  width: 125px;
+}
+
+nav button {
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* end nav bar */
+.left button {
+  width: 250px;
+  height: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-size: 16px;
+  margin-bottom: 2.4rem;
+}
+
+/* end top section */
+/* start middle */
+.card {
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+  margin-top: 2.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0px 7px 20px -10px;
+  border-style: none;
+}
+
+.card img {
+  padding: 1rem;
+}
+
+.card-info p {
+  color: hsl(208, 11%, 55%);
+  font-size: 16px;
+}
+.mini {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 175px;
+  text-align: center;
+}
+.mini button{
+  width: 250px;
+  height: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-size: 16px;
+}
+/* end middle */
+/* start footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding-top: 65px;
+}
+
+.f-logo {
+  width: 170px;
+}
+
+.contact {
+  color: white;
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+
+.contact p {
+  margin: 0;
+  max-width: 325px;
+}
+
+.contact img:nth-child(1) {
+  margin: 7px 0 auto 0;
+}
+
+.social i:nth-child(1) {
+  padding: 5px 8px;
+}
+
+.row p {
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 25px;
+  padding-bottom: 10px; 
+  margin: 0;
+}
+
+.row a {
+  color: white;
+  font-weight: bold;
+}
+
+/* end footer */
+button:hover{
+  opacity: 22%;
+}
+.left button:hover{
+  color: white !important;
+}
+.mini button:hover{
+  color: white !important;
+}
+i:hover{
+  color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+}
